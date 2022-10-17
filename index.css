@@ -38,6 +38,16 @@ body {
     color: #EEEEEE;
 }
 
+#timer-title {
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+    color: #EEEEEE; 
+}
+
 .home-score-board {
     height: 120px;
     width: 155px;
@@ -50,6 +60,13 @@ body {
     width: 155px;
     margin: auto;
     background-color: black;
+}
+
+.timer-board {
+    height: 120px;
+    width: 300px;
+    margin: auto;
+    background-color: black; 
 }
 
 #score-home-el {
@@ -74,6 +91,17 @@ body {
     margin: 0;
 }
 
+.timer-time {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+    margin: 0;
+}
+
 .btn {
     width: 45px;
     height: 45px;
@@ -88,5 +116,23 @@ body {
     border: 2px solid #9AABD8;
     border-radius: 5px;
     margin: 4px;
+    margin-top: 10px;
+}
+
+.btn-timer {
+    width: 100px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    background-color: #1B244A; 
+    color: #9AABD8;
+    box-sizing: border-box;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin: 4px;
+    margin-left: 10px;
     margin-top: 10px;
 }
