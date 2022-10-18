@@ -97,8 +97,8 @@ const resetEl = document.getElementById("reset-el");
 let seconds = 0;
 let interval = null;
 
-startEl.addEventListener('click',  start);
-pauseEl.addEventListener('click', stop);
+startEl.addEventListener('click', start);
+pauseEl.addEventListener('click', pause);
 resetEl.addEventListener('click', reset);
 
 function timer () {
@@ -121,13 +121,13 @@ function start () {
   interval = setInterval(timer, 1000);
 }
 
-function stop () {
+function pause () {
   clearInterval(interval);
   interval = null;
 }
 
 function reset () {
-  stop();
+  pause();
   seconds = 0;
   timeEl.innerText = '00:00';
 }

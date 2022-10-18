@@ -64,7 +64,7 @@ body {
 
 .timer-board {
     height: 120px;
-    width: 300px;
+    width: 333px;
     margin: auto;
     background-color: black; 
 }
@@ -133,6 +133,6 @@ body {
     border: 2px solid #9AABD8;
     border-radius: 5px;
     margin: 4px;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 10px;
 }
