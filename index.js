@@ -88,6 +88,30 @@ function longthreeGuest() {
     homeTitle.style.color = "#00FF00";
   }
 }
+function subtractHome() {
+  scoreHome -= 1
+  scoreHomeEl.textContent = scoreHome
+  if (scoreHome >= scoreGuest) {
+    homeTitle.style.color = "#00FF00";
+    guestTitle.style.color = "#FFFFFF";
+
+  } else {
+    homeTitle.style.color = "#FFFFFF";
+    guestTitle.style.color = "#00FF00";
+  }
+}
+function subtractGuest() {
+  scoreGuest -= 1
+  scoreGuestEl.textContent = scoreGuest
+  if (scoreHome >= scoreGuest) {
+    homeTitle.style.color = "#00FF00";
+    guestTitle.style.color = "#FFFFFF";
+
+  } else {
+    homeTitle.style.color = "#FFFFFF";
+    guestTitle.style.color = "#00FF00";
+  }
+}
 
 const timeEl = document.querySelector('.timer-board .timer-time');
 const startEl = document.getElementById("start-el");
