@@ -15,7 +15,8 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center
+
 }
 
 #home-title {
@@ -152,3 +153,15 @@ body {
     border-radius: 5px;
     margin-left: 3px;
 }
+
+#timer {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* @media only screen and (min-width: 1080px) {
+    .container {
+        max-width: 1000px;
+        justify-content: space-around;
+    }
+  } */
